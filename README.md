@@ -7,5 +7,9 @@ The project was inspired by BlockBuster (RIP) and it's an E-commerce for videoga
 
 The key parts of the projects are:
 
-- Dynamic part and asyncronous (using Ajax) search for the products of the E-commerce
-- 
+- Registration and login for users.
+- Dynamic part and asyncronous (using Ajax) search for the products of the E-commerce.
+- Admin part for add,delete and update all the products in the Website.
+- Admin part for block/delete users.
+- Admin part with the history of products purchasing.
+- Cart without payment getaway
