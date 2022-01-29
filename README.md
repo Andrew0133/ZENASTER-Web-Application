@@ -15,3 +15,5 @@ The key parts of the projects are:
 - Admin part with the history of products purchasing.
 - Cart without payment getaway
 - Newletter with PHPMailer
+
+In the folders utils there are all the backend files for registration, login, searching and so on.
