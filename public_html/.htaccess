@@ -9,5 +9,5 @@ Options -Indexes
 RewriteEngine On
 RewriteBase /
 
-ErrorDocument 403 https://webdev19.dibris.unige.it/~S4533904/
-ErrorDocument 404 https://webdev19.dibris.unige.it/~S4533904/
+ErrorDocument 403 https://localhost/public_html/
+ErrorDocument 404 https://localhost/public_html/
