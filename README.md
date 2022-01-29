@@ -13,3 +13,4 @@ The key parts of the projects are:
 - Admin part for block/delete users.
 - Admin part with the history of products purchasing.
 - Cart without payment getaway
+- Newletter
