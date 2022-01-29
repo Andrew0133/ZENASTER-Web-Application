@@ -10,10 +10,13 @@ The key parts of the projects are:
 
 - Registration and login for users.
 - Dynamic part and asyncronous search (using Ajax) for the products of the E-commerce.
-- Admin part for add,delete and update all the products in the Website.
+- Admin part for add,delete and update all the products in the Website, also the possibility of updating images for the products.
 - Admin part for block/delete users.
 - Admin part with the history of products purchasing.
 - Cart without payment getaway
 - Newletter with PHPMailer
 
 In the folders utils there are all the backend files for registration, login, searching and so on.
+
+In the folder DB_sql, there are the files exported from xampp with the schema for the database.
+The PHP file for connecting with the database is in utils folder with the name connect_db.php.
