@@ -1,0 +1,711 @@
+/* ALL */
+/* Center website */
+.content 
+{
+    max-width: 1180px;
+    margin: auto;
+}
+
+/* HEADER */
+.header{
+    background-color: #14366b !important;
+}
+
+
+/* NAVBAR */
+
+/* Cambio colore del font nella navbar */
+.customNav a{
+    color: #ffe339 !important;
+    text-align: right !important;
+    font-size: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1050px)
+{
+    .navbar-nav a
+    {
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 1051px) and (max-width: 1117px)
+{
+    .navbar-nav a
+    {
+        font-size: 17px !important;
+    }
+}
+/* Restoring orientation of the dropdown-menu */
+
+@media screen and(max-width: 992px){
+    .navbar-nav .dropdown-menu 
+    {
+        position:static !important;
+        float:none !important;
+    }
+}
+
+/* Changed orientation of dropdown-menu to the left */
+
+@media screen and (min-width: 992px){
+.navbar-nav .dropdown-menu 
+    {
+        position:static;
+        float:none; 
+        margin-left: -100px !important;
+    }
+}
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 227, 57)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/*Cambio colore della navbar */
+.customNav{
+    background-color: #14366b !important;
+    width: 100% !important;
+}
+
+/* Cambio colore del font nel drop menu' */
+a.dropdown-item{
+    color: black !important;
+}
+
+.customTextNav
+{
+    font-family: 'Bangers', cursive !important;
+    color:  #ffe339 !important; 
+    font-size: 35px !important;
+}
+
+/* searchbar */
+@media (max-width: 577px){
+    #navItemSearch
+    {
+        height: 100px !important;
+        width: 200 !important;
+        
+    }  
+    .form-inline{
+        width: 300px !important;
+        float: left !important;
+    }
+}
+
+@media (min-width: 578px) and (max-width: 992px){
+    #navItemSearch
+    {
+        height: 50px !important;
+        width: 295 !important;
+    }  
+    
+    .form-inline{
+        width: 265px !important;
+        float: right !important;
+    }
+}
+
+@media (min-width: 993px){
+    .form-inline{
+        width: 400px !important;
+    }
+    #navItemSearch{
+        height: 50px !important;
+        width: 295 !important;
+    }
+    
+}
+
+/* NAVBAR END */
+
+
+
+/*INDEX*/
+
+/*Titolo Zenaster in index responsive*/
+@media (max-width: 409px){
+    .customTitleText
+    {
+        font-family: 'Bangers', cursive !important;
+        font-size: 50px !important;
+        border: solid !important;
+        border-radius: 10em !important;
+        width: 80% !important;
+        color: #ffe339 !important;
+        background-color: #14366b !important;
+        margin-top: 10px;
+    }  
+}
+
+@media (min-width: 410px) and (max-width: 699px){
+    .customTitleText
+    {
+        font-family: 'Bangers', cursive !important;
+        font-size: 80px !important;
+        border: solid !important;
+        border-radius: 10em !important;
+        width: 80% !important;
+        color: #ffe339 !important;
+        background-color: #14366b !important;
+        margin-top: 10px;
+    }  
+}
+ 
+@media (min-width: 700px) and (max-width: 991px){
+    .customTitleText
+    {
+        font-family: 'Bangers', cursive !important;
+        font-size: 110px !important;
+        border: solid !important;
+        border-radius: 10em !important;
+        width: 80% !important;
+        color: #ffe339 !important;
+        background-color: #14366b !important;
+        margin-top: 10px;
+
+    }  
+}
+
+@media (min-width: 992px){
+    .customTitleText
+    {
+        font-family: 'Bangers', cursive !important;
+        font-size: 150px !important;
+        border: solid !important;
+        border-radius: 10em !important;
+        width: 80% !important;
+        color: #ffe339 !important;
+        background-color: #14366b !important;
+        margin-top: 10px;
+
+    }  
+}
+
+.card-body .btn{
+    background-color: #14366b !important;
+    color: #ffe339 !important;
+}
+
+.container .my-4 h2{
+    font-family: 'Bangers', cursive !important;
+    font-size: 50px !important;
+}
+
+@media (max-width: 660px){
+    .subtitles{
+        font-family: 'Bangers', cursive !important;
+        font-size: 8vw !important;
+    }
+}
+@media (min-width: 661px){
+    .subtitles{
+        font-family: 'Bangers', cursive !important;
+        font-size: 50px !important;
+    }
+}
+
+.customRow hr{
+    width: 20% !important;
+    background-color: #14366b !important;
+    text-align: center;
+}
+
+.customRow h3{
+    text-align: center !important;
+}
+
+/* bottone "scopri i nostri proddotti" */
+.btn-outline-warning{
+    color: #ffe339 !important;
+    background-color: #14366b !important;
+    border-color: #ffe339 !important;
+    border-radius: 1em !important;
+    border: solid 3px !important;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none !important;
+}
+
+.btn-outline-warning:hover{
+    color: #14366b !important;
+    background-color: #ffe339 !important;
+    border-color: #14366b !important;
+    text-decoration: none !important;
+}
+
+/* newsletter */
+.theMargin{
+    margin-top: 5px !important;
+    margin-bottom: 60px !important;
+  }
+  
+  .newsletter .form-group .customRow .btn 
+  {
+      text-align: center !important;
+  }
+  
+  .customRow .form-check-label
+  {
+      text-align: center;
+  }
+  
+  .newsletterCustomInput
+  {
+      width: 400px;
+  }
+  
+  .around{
+      border-color: #14366b !important;
+      border-radius: 1em !important;
+      border: solid !important;
+  }
+  
+  .profileButton{
+      background-color: #14366b !important;
+      color: #ffe339 !important;
+      margin-bottom: 10px !important;
+      margin-left: 20px !important;
+  }
+
+/*Map*/
+.map{
+    width: 800px !important;
+    height: 450px !important;
+    border: 0px !important;
+}
+
+.chMap
+{
+    height: 450px !important;
+}
+
+/* INDEX END*/
+  
+
+
+/* FOOTER */
+
+.footer
+{
+    background-color: #14366b !important; 
+    color:  #ffe339 !important; 
+}
+
+.footer a
+{
+    color:  #ffe339 !important; 
+}
+
+.footer h5{
+    font-size: 20px;;
+}
+
+.custFooter{
+    background-color: #14366b !important;
+}
+
+/* FOOTER END*/
+
+
+
+/* LOGIN */
+
+.loginTitle{
+    font-family: 'Bangers', cursive !important;
+    font-size: 100px;
+}
+form { 
+    margin: 0 auto; 
+    width:250px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+.confermButton{
+    background-color: #14366b !important;
+    color:  #ffe339 !important; 
+}
+
+
+.customFormInput{
+    border: 1px solid #14366b !important;
+    
+    }
+
+#alertLogin
+{
+    width: 30% !important;
+    border-radius: 1em !important;
+}
+
+/*services*/
+a,p,h1,h2,h3,h4,ul {
+	margin: 0;
+	padding: 0;
+}
+
+.section-services {
+	padding-top: 20px;
+	padding-bottom: 120px;
+	font-family: "Poppins", sans-serif;
+	color: #ffe339;
+}
+
+.section-services .header-section .title {
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.section-services .header-section .title:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 1px;
+	background-color: #ffffff;
+}
+
+.section-services .header-section .title:after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 45px;
+	height: 3px;
+	background-color: #ffffff;
+}
+
+.section-services .header-section .title span {
+	color: #ffffff;
+}
+
+.section-services .header-section .description {
+	color: #ffffff;
+}
+
+.section-services .single-service {
+	margin-top: 40px;
+	background-color: #14366b;
+}
+
+.section-services .single-service .part-1 {
+	padding: 40px 40px 25px;
+	border-bottom: 2px solid #1d1e23;
+}
+
+.section-services .single-service .part-1 i {
+	/*margin-bottom: 25px;*/
+	font-size: 50px;
+	color: #ffffff;
+}
+
+.section-services .single-service .part-1 .title {
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 {
+	padding: 30px 40px 40px;
+}
+
+.section-services .single-service .part-2 .description {
+	margin-bottom: 22px;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 a {
+	color: #ffe339;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.section-services .single-service .part-2 a i {
+	margin-right: 10px;
+	color: #ffffff;
+}
+
+/* LOGIN END */
+
+
+
+/* UPDATE PROFILE */
+
+#formUpdate{
+    margin: 0px !important;
+    margin-bottom: 0px !important;
+    width: 100% !important;
+}
+
+/* UPDATE PROFILE END */
+
+
+
+/* SHOP-GAMES */
+
+.shopMargin{
+    margin-bottom: 20px !important;
+}
+
+.containerShopMargin{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+.textColorBlue{
+    color: #14366b !important;
+}
+
+/* SHOP-GAMES END */
+
+
+
+/*LOADER JS*/
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background-color: #14366b;
+    background-size: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #ffe339;
+    animation: loader 2s infinite ease;
+  }
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #ffe339;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+
+
+/* PRODUCTS */
+.card-header{
+    color: #ffe339 !important;
+    background-color: #14366b !important;
+}
+
+.switchStyle{
+    color: #ffe339 !important;
+    background-color: #14366b !important;
+}
+
+.littleSpace{
+    margin-bottom: 30px !important;
+}
+
+
+.btnFilter{
+    justify-content: center !important;
+    color: #ffe339  !important;
+    background-color: #14366b !important;
+    border-radius: 1em !important;
+    display: grid !important;
+}
+
+.btnFlex{
+    text-align: center !important;  
+    display: grid !important;
+}
+
+.btnFilter:focus{
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.searchCustom{
+    width: 50%;
+}
+
+.searchBtn{
+    background-color: #ffe339;
+    color: #14366b;
+    border-color: #ffe339;
+}
+
+.searchBtn:hover{
+    background-color: #ffe339 !important;
+    color: #14366b !important;
+    border-color: #ffe339 !important;
+}
+
+.searchBtn:focus{
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.searchForm:focus{
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.filterBtn{
+    background-color: #ffe339 !important;
+    color: #14366b !important;
+    margin-top: 60px !important;
+    width: 150px !important;
+    height: 50px !important;
+    margin-right: 160px !important;
+    border-radius: 1em !important;
+    border: .0px !important;
+    border-color: #ffe339 !important;
+}
+
+.filterBtn:hover{
+    background-color: #ffe339 !important;
+    color: #14366b !important;
+    border-color: #14366b !important;
+}
+
+.filterBtn:focus{
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.filterMargin{
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    margin-left: 90px ;
+    margin-right: 90px ;
+  }
+  
+/* Cambio colore delle pagine nell'area amministrativa (solo quando e' attiva) */
+.page-item.active .page-link {
+    color: #ffe339 !important;
+    background-color: #14366b !important;
+    border-color: #14366b !important;
+}
+
+/* Cambio colore del font dei numeri (quando non sono attive) */
+.page-link {
+    color: #14366b !important;
+}
+
+.formDel{
+    width: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    display: inline-block !important;
+}
+
+.fa-pen{
+    color: white !important;
+}
+
+/*Grandezza delle card dei prodotti*/
+.imgCardClass
+{
+    width: 50% !important;
+    height: auto !important;
+}
+
+/* delete search */
+.fa-times-circle{
+    color: red !important;
+}
+
+/* PRODUCTS END */
+
+
+
+/* ADMIN AREA */
+/*css for admin area*/
+
+.indexAdmBtn{
+    height: 200px!important;
+    width: 200px!important;
+}
+
+.formNewsLetter{
+    width: 400px !important;
+    height: 300px !important;
+}
+
+/* ADMIN AREA END*/
+
+/* CART */
+.blockCart{
+    display: block !important;
+}
+
+.indexAdmBtnAux{
+    height: 100px !important;
+}
+
+
+
+/* ZENASTER TEXT FONT */
+.zenFont{
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+

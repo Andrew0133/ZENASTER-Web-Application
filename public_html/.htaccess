@@ -1,0 +1,13 @@
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /
+
+ErrorDocument 403 https://webdev19.dibris.unige.it/~S4533904/
+ErrorDocument 404 https://webdev19.dibris.unige.it/~S4533904/
