@@ -1,4 +1,5 @@
 # ZENASTER-Web-Application
+![image](https://user-images.githubusercontent.com/50736672/151667400-3ee3f2b2-e779-48cb-aa53-8c5d27ced159.png)
 We created a simple Web Application built with native PHP, HTML, CSS and Javascript.
 
 Some part of the application are in our native language (Italian) The comments in the code should be in English.
